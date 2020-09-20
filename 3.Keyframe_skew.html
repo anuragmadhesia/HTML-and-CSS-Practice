@@ -1,0 +1,39 @@
+<html>
+    <head>
+        <title>17 jul</title>
+        <style>
+            .element{
+                height: 200px;
+                width: 200px;
+                display: inline-block;
+                background: linear-gradient(180deg,#ff8a00,#e52e71);
+                padding: 1px;
+                color: white;
+                margin-left: 5px;
+                margin-right: 5px;
+                animation: skew 3s infinite;
+                transform: skew(20deg);
+                animation-direction: alternate;
+                opacity: .8;
+            }
+            @keyframes skew{
+                0%{
+                    transform: skew(20deg,20deg);
+                }
+                100%{
+                    transform: skew(-20deg,-20deg);
+                }
+            }
+            body{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="element"></div>
+        <div class="element"></div>
+        <div class="element"></div>
+    </body>
+</html>
