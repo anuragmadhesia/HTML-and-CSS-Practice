@@ -1,0 +1,155 @@
+#header{
+    height: 100px;
+    width: 100%;
+    background: #0097a7;
+}
+#logo{
+    height: 100px;
+    width: 160px;
+    float: left;
+}
+.img{
+    height: 80px;
+    width: 160px;
+    padding: 10px;
+    border-right: 3px solid white;
+}
+#title{
+    height: 100px;
+    width: 720px;
+    float: left;
+}
+h1{
+    font-size: 36px;
+    padding: 10px;
+    margin: 0px;
+    color: darkred;
+    margin-left: 20px;
+}
+h1::after{
+    content: "Bella Ciao";
+    display: block;
+    font-size: 24px;
+    color: navy;
+}
+#icon{
+    height: 100px;
+    width: 430px;
+    float: left;
+}
+.icon1{
+    height: 30px;
+    width: 30px;
+    float: left;
+    margin-right: 17px;
+    margin-top: 40px;
+}
+.menu{
+    height: 50px;
+    width: 100%;
+    background: #4dd0e1;
+}
+.left{
+    height: 50px;
+    width: 450px;
+    float: left;
+}
+.right{
+    height: 50px;
+    width: 850px;
+    float: left;
+}
+ul{
+    float: right;
+    margin: 4px;
+}
+li{
+    display: block;
+    float: left;
+    padding: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    color: darkred;
+    cursor: pointer;
+    border-top: 4px solid #ffbb3300;
+    transition: 2s;
+}
+li:hover{
+    background-color: #0d47a1;
+    color: aliceblue;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white:
+    transition: 2s;
+}
+.slider{
+    height: 400px;
+    width: 100%;
+}
+.slider1{
+    height: 380px;
+    width: 1000px;
+    background-color: rgb(235, 235, 162);
+    float: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.notification{
+    height: 380px;
+    width: 310px;
+    float: left;
+    background: #4dd0e1;
+    margin: 10px;
+    border: 1px solid #0d47a1;
+    border-radius: 5px 5px 0px 0px;
+}
+.notification>h2{
+    margin: 0px;
+}
+.container{
+    height: 620px;
+    width: 100%;
+    background: #4dd0e1;
+    color: #0d47a1;
+    text-align: center;
+}
+.container>h2{
+    font-size: 34px;
+    color: aliceblue;
+    background: #0097a7;
+    margin: 0px;
+}
+.box{
+    height: 200px;
+    width: 375px;
+    float: left;
+    margin: 30px;
+    border-radius: 7px;
+    box-shadow: 0px 0px 0px 0px;
+    background-size: 100% 100%;
+    /*transition: 2s;*/
+}
+/*
+.box:hover{
+    height: 220px;
+    width: 370px;
+    transition: 2s;
+    transform: rotate(360deg);
+    width: 100%;
+}*/
+.footer{
+    height: 250px;
+    width: 100%;
+    background: #0097a7;
+    margin-top: 10px;
+}
+.bar{
+    height: 50px;
+    /*width: 100%;*/
+    background: #212121;
+    color: black;
+    text-align: center;
+    padding: 7px;
+}
+.bar:hover{
+    color:aliceblue;
+}
